@@ -90,6 +90,7 @@ margin-left:0;
     /* animation: aboutAnimation 5s ease-out infinite 0.5s; */
 }
 
+
 @keyframes aboutAnimation{
     20%{
         border: 0.5px solid;
@@ -395,7 +396,7 @@ display: inline-flex;
 }
 
 #email-icon{
-    width: 42px;
+    width: 38px;
     height: auto; 
     justify-content: center;
     align-items: bottom;
@@ -536,6 +537,7 @@ height: 100vh;
 
 .live-link{
     display: inline-flex;
+    margin-top: 0.5rem;
 }
 
 /* .tech-stack, .live-link{
