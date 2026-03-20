@@ -136,7 +136,6 @@ article h3:hover{
 
 #skills:hover{
 /* transform: scale(1.04, 1.15); */
-margin-left:0;
 border: 1px solid rgb(52, 85, 2);
 }
 
@@ -679,5 +678,9 @@ background: none;
 
 #project-two p{
     width: 100vw;
+}
+
+footer p{
+    margin-left: -4rem;
 }
 }
