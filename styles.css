@@ -646,7 +646,7 @@ background: none;
 }
 
 #project-one-images{
-    width: 95vw;
+    width: 90vw;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -662,7 +662,7 @@ background: none;
 }
 
 #project-two-images{
-    width: 95vw;
+    width: 90vw;
     height: auto;
     display: flex;
     flex-direction: column;
