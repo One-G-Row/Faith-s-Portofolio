@@ -333,7 +333,7 @@ input, textarea, select{
 }
 
 #submit{
-    background-color: #fff;
+    /* background-color: #fff; */
     color: #000;
 }
 
