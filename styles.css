@@ -89,13 +89,6 @@ margin-left:0;
     animation: aboutAnimation 2s ease-out infinite 0.5s;
 }
 
-/* #about:hover{
- border-top: 1px solid rgb(135, 187, 56);
- border-right: 1px solid rgb(109, 150, 48);
- border-left: 1px solid rgb(163, 240, 47);
- border-bottom: 1px solid rgb(52, 85, 2);
-} */
-
 
 @keyframes aboutAnimation{
     20%{
@@ -116,10 +109,6 @@ margin-left:0;
 }
 
 
-
-/* #about:hover{
-border-color: greenyellow;
-} */
 
 article h3{
     font-weight: bolder;
@@ -597,45 +586,67 @@ footer{
 
    aside{
     width: 100vw;
-    margin-left: -2rem;
+    /* margin-left: -2rem; */
      display: block;
      /* flex-direction: row; */
     position: relative;
-    top: 2rem;
-    left: 2rem;
+    top: 0rem;
+    left: 0rem;
     }
+
+    #about-me img{
+    max-width: 200px;
+    max-height: 200px;
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
+    object-fit: cover;
+    margin: 10px 30px 5px 2px;
+}
 
 nav a{
    display: inline-flex;
-    left: 0;
+    left: -6rem;
 }
 
 #about{
     position: relative;
-    margin-left: -2rem;
-    width: 100vw;
+    margin-left: -4rem;
+    width: 95vw;
     height: auto;
+    display: flex; 
+    flex-direction: column; 
+    justify-content:left
 }
  
 
     #skills {
-    margin-left: -2rem;
-    width: 100vw;
+    margin-left: -4rem;
+    width: 95vw;
+    position: relative;
+    gap: 1rem;
     display: flex;
     flex-direction: column;
-    position: relative;
-    gap: 4rem;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+}
+
+table{
+    border: none;
+}
+
+th, td{
+display: block;
+height: auto;
+background: none;
 }
 
 #projects{
-    margin-left: -2rem;
-    width: 100vw;
+    margin-left: -4rem;
+    width: 95vw;
 }
 
 #project-one-images{
-    width: 100vw;
+    width: 95vw;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -643,7 +654,7 @@ nav a{
 }
 
 #project-one-images img{
-    width: 95vw;
+    width: 90vw;
 }
 
 #project-one p{
@@ -651,7 +662,7 @@ nav a{
 }
 
 #project-two-images{
-    width: 100vw;
+    width: 95vw;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -659,7 +670,7 @@ nav a{
 }
 
 #project-two-images img{
-    width: 95vw;
+    width: 90vw;
 }
 
 #project-two p{
