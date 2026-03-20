@@ -1,6 +1,6 @@
 html{
-    background: url(images/coding-background.svg)
-   /* background: #0A0A0A;  */
+    background-color: #0A0A0A;
+    background: url(images/coding-background.svg);
    /* background: #313647; */
 }
 
@@ -13,7 +13,7 @@ body{
     padding: 0;
     width: 100vw;
     height: auto;
-    animation: animated 2s ease infinite 0.5s;
+    /* animation: animated 2s ease infinite 0.5s; */
     /* background: #0A0A0A; */
     /* background: linear-gradient(to bottom right, #0A0A0A, #000, #0A0A0A,  #9412ad 5%, #000, #0A0A0A, #000, #0A0A0A, #ee1d1d 5%, #0A0A0A, #0A0A0A, #000);*/
 } 
@@ -684,3 +684,4 @@ footer p{
     margin-left: -4rem;
 }
 }
+
