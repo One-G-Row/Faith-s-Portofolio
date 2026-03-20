@@ -612,7 +612,7 @@ nav a{
 #about{
     position: relative;
     margin-left: -4rem;
-    width: 95vw;
+    width: 90vw;
     height: auto;
     display: flex; 
     flex-direction: column; 
@@ -622,7 +622,7 @@ nav a{
 
     #skills {
     margin-left: -4rem;
-    width: 95vw;
+    width: 90vw;
     position: relative;
     gap: 1rem;
     display: flex;
@@ -642,7 +642,7 @@ background: none;
 
 #projects{
     margin-left: -4rem;
-    width: 95vw;
+    width: 90vw;
 }
 
 #project-one-images{
